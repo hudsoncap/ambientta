@@ -1,4 +1,31 @@
+*:root {
+
+    --color1: #03738C;
+    --color2: #595848;
+    --color3: #59544F;
+    --color4: #0D0D0D;
+    --font1: font-family: 'Pacifico', cursive;
+    --font2: font-family: 'Roboto', sans-serif;
+}
+
+
+
+.sub-titu{color: var(595848);
+font-family: var(--font2);
+ font-weight: bold;
+}
+
+strong{color: var(--color1);}
+
+
+.imglogo { object-fit: cover;
+  width: 100px;
+height: 50;}
+
+
+
+
 .carimg {
       object-fit: cover;
-      height: 500px;
+      height: 600px;
 }
