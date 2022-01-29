@@ -6,21 +6,39 @@
     --color4: #0D0D0D;
     --font1: font-family: 'Pacifico', cursive;
     --font2: font-family: 'Roboto', sans-serif;
+    --font3: font-family: 'Josefin Sans', sans-serif;
 }
+*{font-family: 'Josefin Sans', sans-serif;}
 
+a{color: white!important;
+  font-family: 'Josefin Sans', sans-serif;
+   font-size: 28px;
+  margin-left: 10px;}
 
+  a:hover {
+     font-size: 32px;
+     background-color:#03738c25 ;
+     border-radius: 10px;
+  }
+
+ h1{font-family: 'Josefin Sans', sans-serif;}
+
+ .btwhite {
+background-color: white;}
 
 .sub-titu{color: var(595848);
-font-family: var(--font2);
+  font-family: 'Josefin Sans', sans-serif;;
  font-weight: bold;
 }
 
-strong{color: var(--color1);}
+strong{color: var(--color1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: none;}
 
 
 .imglogo { object-fit: cover;
-  width: 100px;
-height: 50;}
+  width: 214px;
+  }
 
 
 
@@ -30,11 +48,13 @@ height: 50;}
       height: 600px;
 }
 
-.card{
-  max-width: 18rem;
+.card-largura{
+  max-width: 25rem;
 }
 
 .cardimg{
      object-fit: cover;
-     height: 202px;
+     height: 100px;
 }
+
+
