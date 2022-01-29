@@ -51,9 +51,14 @@ strong{color: var(--color1);
 
 
 
-.carimg {
+.carimg1 {
       object-fit: cover;
       height: 600px;
+}
+
+.carimg2 {
+  object-fit: cover;
+  height: 600px;
 }
 
 .card-largura{
