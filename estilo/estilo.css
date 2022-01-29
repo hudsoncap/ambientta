@@ -8,11 +8,14 @@
     --font2: font-family: 'Roboto', sans-serif;
     --font3: font-family: 'Josefin Sans', sans-serif;
 }
-*{font-family: 'Josefin Sans', sans-serif;}
+*{font-family: 'Josefin Sans', sans-serif;
+ }
+
+
 
 a{color: white!important;
   font-family: 'Josefin Sans', sans-serif;
-   font-size: 28px;
+   font-size: 25px;
   margin-left: 10px;}
 
   a:hover {
@@ -40,6 +43,11 @@ strong{color: var(--color1);
   width: 214px;
   }
 
+.btn-primary{background-color: var(--color1);}
+
+.btn-primary:hover {
+   background-color: var(--color1);
+}
 
 
 
