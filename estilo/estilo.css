@@ -29,3 +29,12 @@ height: 50;}
       object-fit: cover;
       height: 600px;
 }
+
+.card{
+  max-width: 18rem;
+}
+
+.cardimg{
+     object-fit: cover;
+     height: 202px;
+}
